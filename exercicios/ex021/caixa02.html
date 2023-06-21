@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(54, 54, 54);
+            padding: 3px;
+            /* deslocamento horizontal - vertical - espalhamento - cor */
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 20px 30px 40px;
+        }
+
+        footer {
+            background-color: black;
+            padding: 4px;
+            margin: 10px;
+            color: white;
+            text-align: center;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header> <!-- CABEÇALHO -->
+        <h1>Meu site</h1>
+        <nav> <!-- NAVEGAÇÃO -->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main> <!-- CONTEÚDO PRINCIPAL -->
+        <section id="noticias"> <!-- SESSÃO DO SITE-->
+            <article> <!-- ARTIGO DA SESSÃO -->
+                <h2>Artigos sobre o tempo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo obcaecati corrupti consectetur animi velit, at, aliquam ex porro adipisci totam reiciendis magnam, ratione fuga laborum tempore repellat quam esse expedita!</p>
+                <aside> <!-- CONTEÚDO RELACIONADO AO ARTIGO -->
+                    <p>Artigo criado por Isabelly</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer> <!-- RODAPÉ -->
+        <p>Desenvolvido por Matheus</p>
+    </footer>
+
+</body>
+</html>

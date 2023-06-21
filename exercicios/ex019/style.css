@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(177, 235, 215);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 { /* h1 genérico então todos os elementos h1 recebe a configuração*/
+    color: rgb(36, 134, 100);
+}
+
+h1#principal { /* O h1 com ID "principal" recebe as configurações acima mais essa*/
+    text-align: center;
+    background-color: rgb(36, 134, 100);
+    color: white;
+}
+
+h2 { /* genérico */
+    color: rgb(44, 58, 53)
+}
+
+.basico { /* sobrepor */ 
+    color: rgb(4, 66, 44);
+}
+
+.intermediario {
+    color: rgb(194, 177, 21);
+}
+
+.avancado {
+    color: rgb(194, 61, 21);
+}
+
+.destaque {
+    background-color: rgba(235, 235, 118, 0.596);
+}
